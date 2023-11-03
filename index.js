@@ -87,4 +87,5 @@ async function sendToSanity() {
 
   console.log(data);
   document.getElementById("myString").value = "";
+  //newline
 }
