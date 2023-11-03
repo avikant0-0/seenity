@@ -22,6 +22,7 @@ fetch(URL)
     const title = data.result[0].title;
     const body = data.result[0].body[0].children[0].text;
     document.getElementById("first").textContent = `${title}  ${body} `;
+    // xd
   })
 
   .catch((error) => {
